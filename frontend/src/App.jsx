@@ -42,7 +42,7 @@ function App() {
 
   return (
     <main>
-      <h1>FullStack Chat AI Tutorial</h1>
+      <h1>Suka <span>Ai</span></h1>
 
       <section>
         {chats && chats.length
