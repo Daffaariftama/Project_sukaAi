@@ -1,6 +1,5 @@
 This is a fullstack chatbot created with React, Nodejs, OpenAi, and ChatGPT while developing the following tutorial:
 
-[How To Build A Chat Bot Application With OpenAI, ChatGPT, Nodejs, And React](https://www.freecodecamp.org/news/how-to-build-a-chatbot-with-openai-chatgpt-nodejs-and-react/)
 
 ## Dependencies
 ### Backend
@@ -14,7 +13,7 @@ This is a fullstack chatbot created with React, Nodejs, OpenAi, and ChatGPT whil
 * [Vite](https://vitejs.dev/)
 
 ## Installation
-* Clone this repo `https://github.com/EBEREGIT/react-nodejs-chatgpt-tutorial`
+* Clone this repo `https://github.com/Daffaariftama/frontend-sukaai.git`
 * Navigate into the repo `cd react-nodejs-chatgpt-tutorial`
 
 * Navigate into the `backend` folder `cd backend`
