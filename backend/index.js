@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 

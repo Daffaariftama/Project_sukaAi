@@ -1,11 +1,14 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(56, 56, 56, 0.87);
+  background-image: url(img/realistic_flowing_glossy_balls_background.jpg);
+  background-position: center;
+  background-size:cover;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,12 +22,19 @@ html, body{
 }
 
 h1 {
+  font-family:'Poppins', sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
   text-align: center;
   position: sticky;
   top: 0;
-  background-color: #242424;
+  z-index: 1;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba(249, 249, 249, 0.37);
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 main{
@@ -33,7 +43,14 @@ main{
 }
 
 p{
-  background-color: darkslategray;
+background: #ffffff4d;
+box-shadow: 0 8px 32px 0 rgba(249, 249, 249, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
   max-width: 70%;
   padding: 15px;
   border-radius: 50px;
@@ -71,7 +88,13 @@ input{
   border: none;
   padding: 10px;
   font-size: 1.2rem;
-  background-color: rgb(28, 23, 23);
+  background: rgba( 28, 23, 23, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11px );
+  -webkit-backdrop-filter: blur( 11px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
 
 input:focus{
@@ -79,5 +102,5 @@ input:focus{
 }
 
 h1 span{
-  color: darkslategray;
+  color: #2f4f4f;
 }
